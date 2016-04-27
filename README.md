@@ -13,7 +13,7 @@ Simple npm setup and minimal boilerplate for [Bootstrap Layout](http://bootstrap
 #### Clone the boilerplate repository
 ```bash
 git clone \ 
-  https://github.com/themekit/adminplus-boilerplate-npm.git \
+  https://github.com/themekit/bs-layout-boilerplate-npm.git \
   my-project
 ```
 ```bash
