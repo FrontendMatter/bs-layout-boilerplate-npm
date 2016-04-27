@@ -1,4 +1,4 @@
-# adminplus-boilerplate-npm
+# Bootstrap Layout NPM Boilerplate
 Simple npm setup and minimal boilerplate for [Bootstrap Layout](http://bootstrap-layout.themekit.io).
 
 ### Demo
@@ -11,11 +11,19 @@ Simple npm setup and minimal boilerplate for [Bootstrap Layout](http://bootstrap
 
 ### Usage
 #### Clone the boilerplate repository
-`git clone \ 
+```bash
+git clone \ 
   https://github.com/themekit/adminplus-boilerplate-npm.git \
-  my-project`
-`cd my-project`
+  my-project
+```
+```bash
+cd my-project
+```
 #### Install dependencies
-`npm install`
+```
+npm install
+```
 #### Copy vendor assets
-`npm run copy-vendor`
+```
+npm run copy-vendor
+```
