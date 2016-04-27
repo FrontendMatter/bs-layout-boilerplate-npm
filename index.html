@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="bootstrap-layout">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bs-layout-boilerplate-npm demo</title>
+
+	<!-- Prevent the demo from appearing in search engines (REMOVE THIS) -->
+	<meta name="robots" content="noindex">
+
+	<!-- Material Design Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+	
+	<!-- Bootstrap Layout CSS -->
+	<link type="text/css" href="vendor/bootstrap-layout.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="layout-container si-l3-md-up ls-top">
+		<div class="layout-content" data-scrollable>
+		  <div class="container-fluid">
+		  		
+				<p>
+					<button class="btn btn-primary" data-target="#sidebar-blank-1" data-toggle="sidebar">Toggle</button>
+				</p>
+				<h1>Bootstrap Layout </h1>
+				<div class="card">
+				<div class="card-block">
+					This is a demo for the <a target="_blank" href="https://github.com/themekit/bs-layout-boilerplate-npm">bs-layout-boilerplate-npm</a> repository. <br>
+					Read the full guide of <a target="_blank" href="http://bootstrap-layout.themekit.io">Bootstrap Layout</a>.
+				</div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- Sidebar -->
+		<div class="sidebar sidebar-left sidebar-visible-md-up si-si-3 sidebar-dark bg-primary" id="sidebar-blank-1" data-scrollable data-position="left" data-size="3" data-visible="md-up">
+
+		  <!-- Brand -->
+		  <a href="index.html" class="sidebar-brand">Brand</a>
+
+		  <!-- Menu -->
+		  <ul class="sidebar-menu sm-active-button-bg">
+		    <li class="sidebar-menu-item">
+		      <a class="sidebar-menu-button" href="#"><i class="sidebar-menu-icon material-icons">home</i> Menu Item</a>
+		    </li>
+		    <li class="sidebar-menu-item active">
+		      <a class="sidebar-menu-button" href="#"><i class="sidebar-menu-icon material-icons">dashboard</i> Menu Active</a>
+		    </li>
+		   
+		  </ul>
+		  <!-- // END Menu -->
+
+		</div>
+		<!-- // END Sidebar -->
+
+	</div>
+
+	<!-- jQuery -->
+	<script src="vendor/jquery.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="vendor/tether.min.js"></script>
+	<script src="vendor/bootstrap.min.js"></script>
+
+	<!-- Bootstrap Layout -->
+	<script src="vendor/bootstrap-layout.js"></script>
+
+	<!-- Initialize  -->
+	<script>
+		 // Initialize all sidebars
+		  BootstrapLayout.Sidebar.init()
+
+		  // Initialize custom scrolling areas
+		  BootstrapLayout.Scrollable()
+	</script>
+
+</body>
+</html>
