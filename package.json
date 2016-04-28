@@ -4,18 +4,22 @@
   "description": "Simple npm setup and minimal boilerplate for Bootstrap Layout",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy-vendor": "copyfiles -f node_modules/bootstrap-layout/dist/* node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/bootstrap/dist/css/bootstrap.min.css node_modules/jquery/dist/jquery.min.js node_modules/tether/dist/js/tether.min.js vendor",
+    "copy-vendor": "copyfiles -f node_modules/bootstrap-layout/dist/* node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/bootstrap/dist/css/bootstrap.min.css* node_modules/jquery/dist/jquery.min* node_modules/tether/dist/js/tether.min.js* vendor",
     "deploy": "surge"
   },
   "author": "Adrian Demian <contact@mosaicpro.biz>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejitsu/browsenpm.org"
+  },
   "devDependencies": {
     "copyfiles": "^0.2.1",
     "surge": "^0.17.7"
   },
   "dependencies": {
     "bootstrap": "4.0.0-alpha.2",
-    "bootstrap-layout": "1.0.0-alpha.4",
+    "bootstrap-layout": "1.0.0-alpha.5",
     "jquery": "^2.2.0",
     "tether": "^1.2.0"
   }
