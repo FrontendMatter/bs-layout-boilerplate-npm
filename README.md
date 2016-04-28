@@ -2,7 +2,7 @@
 Simple npm setup and minimal boilerplate for [Bootstrap Layout](http://bootstrap-layout.themekit.io).
 
 ### Demo
-> You can [see a working live demo](http://npm.bootstrap-layout.themekit.io) of this boilerplate.
+> You can [see a working live demo](http://bs-layout-boilerplate-npm.themekit.io) of this boilerplate.
 
 ### Features
 * simple npm setup
