@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="bootstrap-layout">
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,11 +15,17 @@
 	<!-- Bootstrap 4 CSS -->
 	<link type="text/css" href="vendor/bootstrap.min.css" rel="stylesheet">
 
+	<!-- Simplebar.js CSS -->
+	<link type="text/css" href="vendor/simplebar.css" rel="stylesheet">
+
 	<!-- Bootstrap Layout CSS -->
 	<link type="text/css" href="vendor/bootstrap-layout.css" rel="stylesheet">
 
+	<!-- Bootstrap Layout Scrollable CSS -->
+	<link type="text/css" href="vendor/bootstrap-layout-scrollable.css" rel="stylesheet">
+
 </head>
-<body class="layout-container ls-top-navbar si-l3-md-up">
+<body class="layout-container ls-top-navbar layout-sidebar-l3-md-up">
 
 	<!-- Navbar -->
 	<nav class="navbar navbar-light bg-white navbar-full navbar-fixed-top ls-left-sidebar">
@@ -42,10 +48,10 @@
 	<!-- // END Navbar -->
 
 	<!-- Sidebar -->
-	<div class="sidebar sidebar-left si-si-3 sidebar-visible-md-up sidebar-dark bg-primary" id="sidebar" data-scrollable>
+	<div class="sidebar sidebar-left sidebar-size-3 sidebar-visible-md-up sidebar-dark bg-primary" id="sidebar" data-scrollable>
 
 		<!-- Brand -->
-		<a href="index.html" class="sidebar-brand">Brand</a>
+		<a href="index.html" class="sidebar-brand sidebar-brand-bg sidebar-brand-border m-b-0">Brand</a>
 
 		<!-- Menu -->
 		<ul class="sidebar-menu sm-active-button-bg">
@@ -63,12 +69,12 @@
 
 	<!-- Content -->
 	<div class="layout-content" data-scrollable>
-		<div class="container">
+		<div class="container-fluid">
 
 			<!-- Breadcrumb -->
 			<ol class="breadcrumb">
 				<li><a href="index.html">BS Layout</a></li>
-				<li class="active">Fixed layout</li>
+				<li class="active">Sidebar layout</li>
 			</ol>
 			<!-- // END Breadcrumb -->
 
@@ -86,7 +92,6 @@
 	</div>
 	<!-- // END Content -->
 
-
 	<!-- jQuery -->
 	<script src="vendor/jquery.min.js"></script>
 
@@ -94,17 +99,14 @@
 	<script src="vendor/tether.min.js"></script>
 	<script src="vendor/bootstrap.min.js"></script>
 
-	<!-- AdminPlus -->
+	<!-- Bootstrap Layout -->
 	<script src="vendor/bootstrap-layout.js"></script>
 
-	<!-- Initialize -->
-	<script>
-		// Initialize Sidebar
-		BootstrapLayout.Sidebar.init()
-		
-		// Initialize Scrollbars
-		BootstrapLayout.Scrollable()
-	</script>
+	<!-- Simplebar.js -->
+	<script src="vendor/simplebar.min.js"></script>
+
+	<!-- Bootstrap Layout Scrollable -->
+	<script src="vendor/bootstrap-layout-scrollable.js"></script>
 
 </body>
 </html>

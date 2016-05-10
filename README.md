@@ -1,4 +1,4 @@
-# Bootstrap Layout NPM Boilerplate
+# bs-layout-boilerplate-npm
 Simple npm setup and minimal boilerplate for [Bootstrap Layout](http://bootstrap-layout.themekit.io).
 
 ### Demo
